@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Login" skipped="0" tests="1" time="0.87" timestamp="2024-03-20 05:25:35"><testcase name="Validar acceso de un usuario no autorizado en el app the app"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.google.common.base.Preconditions.checkNotNull(Preconditions.java:903)&#13;
+com.appium.pro.theapp.automation.stepdefinitions.LoginStepdefinition.userEnterTheloginoption(LoginStepdefinition.kt:18)&#13;
+✽.Que el usuario  desea logearse en el app(file:///C:/Users/Ge-Force/IdeaProjects/automationtst/src/test/resources/features/Login.feature:10)&#13;
+</system-err></testcase></testsuite>

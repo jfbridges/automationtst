@@ -2,7 +2,8 @@ package com.appium.pro.theapp.automation.stepdefinitions
 
 
 import com.appium.pro.theapp.automation.interactions.EnterFalseCredentials
-import com.appium.pro.theapp.automation.questions.TheScreenValidateUser
+import com.appium.pro.theapp.automation.questions.TheScreenValidateCorrectUser
+import com.appium.pro.theapp.automation.questions.TheScreenValidateWrongUser
 import com.appium.pro.theapp.automation.task.EnterTheLogin
 import io.cucumber.java.es.Cuando
 import io.cucumber.java.es.Dado
@@ -28,13 +29,19 @@ class LoginStepdefinition {
     }
 
     @Cuando("^Diligencia los campos (.*) y (.*)")
-    fun userEnterFalseCredentials(usuario: String, password: String) {
+    fun userEnterCredentials(usuario: String, password: String) {
         OnStage.withCurrentActor(EnterFalseCredentials.enterUserFalseData(usuario, password))
     }
 
     @Entonces("Es validado como usuario no autorizado")
-    fun userIsValidated() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat<Boolean>(TheScreenValidateUser.forUserOnValidateCredentials()))
+    fun userIsValidatedAsWrongUser() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat<Boolean>(TheScreenValidateWrongUser.forUserOnValidateCredentials()))
     }
+
+    @Entonces("Es validado como usuario autorizado")
+    fun userIsValidatedAsUser() {
+       OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat<Boolean>(TheScreenValidateCorrectUser.forUserOnValidateCredentials()))
+    }
+
 
 }

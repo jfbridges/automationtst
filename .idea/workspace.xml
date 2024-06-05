@@ -4,35 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8822c373-4485-4dc7-b84b-8ee5f5644dad" name="Changes" comment="">
+    <list default="true" id="8822c373-4485-4dc7-b84b-8ee5f5644dad" name="Changes" comment="at support to android 12">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/appium/pro/theapp/automation/questions/TheScreenValidateCorrectUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/appium/pro/theapp/automation/stepdefinitions/Hooks.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/appium/pro/theapp/automation/stepdefinitions/Hooks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/appium/pro/theapp/automation/questions/TheScreenValidateUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/appium/pro/theapp/automation/questions/TheScreenValidateWrongUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/appium/pro/theapp/automation/userinterfaces/MenuAppElements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/appium/pro/theapp/automation/userinterfaces/MenuAppElements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/appium/pro/theapp/automation/stepdefinitions/LoginStepdefinition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/appium/pro/theapp/automation/stepdefinitions/LoginStepdefinition.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/04b3ee86fab2067c8afb92a3f13f782dd19620daf0d2aa876707b659b7f8e8ff.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/04b3ee86fab2067c8afb92a3f13f782dd19620daf0d2aa876707b659b7f8e8ff.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/0614d6645175618a4dc052e064fcc563bdc104b8ea2746ea2358678d8541ba3c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/0614d6645175618a4dc052e064fcc563bdc104b8ea2746ea2358678d8541ba3c.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/098b58b274b89f2da4cadcdff44b525224aba865379d301cfede4d5662ad577b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/098b58b274b89f2da4cadcdff44b525224aba865379d301cfede4d5662ad577b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/0faa2a2f9357e1c6a2a99143acf8783abbe8addbb4586df367f937d818186f51.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/0faa2a2f9357e1c6a2a99143acf8783abbe8addbb4586df367f937d818186f51.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/120432991f63d1dc5d60a2a93d503a213fd5fb193680fdbfe5c03d9b543053b1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/120432991f63d1dc5d60a2a93d503a213fd5fb193680fdbfe5c03d9b543053b1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/1ec4bee87b2d3b6cf6554e1b3e61d303f7dadcea8c4f7114b957cd72161ed536.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/1ec4bee87b2d3b6cf6554e1b3e61d303f7dadcea8c4f7114b957cd72161ed536.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/3436ef82661c90fbfcb5572ba1a4d0ed37b42cd613b2dfadc7ab57c41db44c98.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/3436ef82661c90fbfcb5572ba1a4d0ed37b42cd613b2dfadc7ab57c41db44c98.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/4ce9016fdfbdd102561d1d36ad887944219e28076cc5f7f1c60ab0be1fcf24e9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/4ce9016fdfbdd102561d1d36ad887944219e28076cc5f7f1c60ab0be1fcf24e9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/19cf6ad8f017eedf7fc5c69fd77dcdcb98cf0538b9f31527991fa1c43613fc12.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/19cf6ad8f017eedf7fc5c69fd77dcdcb98cf0538b9f31527991fa1c43613fc12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/4697130de5b9fc09ff6407a6a1909c156a91562da843d510c71c8a0f045792aa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/4697130de5b9fc09ff6407a6a1909c156a91562da843d510c71c8a0f045792aa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/4d396cef394ec9e1d0398947106ec7453e02cc818d520a54bcab994a457072a8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/4d396cef394ec9e1d0398947106ec7453e02cc818d520a54bcab994a457072a8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/5ba7b6b3cfa3fed72c5d7ffb2fc7540b0cfc5a8773ed01f90f699c10362ed23e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/5ba7b6b3cfa3fed72c5d7ffb2fc7540b0cfc5a8773ed01f90f699c10362ed23e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/72470b4a6a0d0cadc11e5191dceceb3016d542a233cf8e2d8aee2c3f1646c501.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/72470b4a6a0d0cadc11e5191dceceb3016d542a233cf8e2d8aee2c3f1646c501.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/72baeca68ce566da3b90312d4cdabc51e26da05fbc15802418873f08c9e938e2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/72baeca68ce566da3b90312d4cdabc51e26da05fbc15802418873f08c9e938e2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/88b3f78355dae1e88a500ffe4a565ce2cec5ceb2484d564beef99fd6cff4c3a6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/88b3f78355dae1e88a500ffe4a565ce2cec5ceb2484d564beef99fd6cff4c3a6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/942f91952d8454a8bd51bffd13ed0cb7dad29dde66a96c526b009f34fa7893fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/942f91952d8454a8bd51bffd13ed0cb7dad29dde66a96c526b009f34fa7893fc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/9c76945945db402de839912b3843ae7ad718385d707e217324d6d5c0dce43743.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/9c76945945db402de839912b3843ae7ad718385d707e217324d6d5c0dce43743.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/SERENITY-JUNIT-15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/SERENITY-JUNIT-15baa97b15d0c305a223673ea9efb944798df725bd62d594bf0cbb3a4dcf7dc6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/b100884c2d7ea2b54052ba1f1a33ff801ae37341b29d98983c0e72923c8a0341_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/b46280cc079df9b87cc03932fcad8a65a0ad49280e429822e7560c8ded116bf4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/b46280cc079df9b87cc03932fcad8a65a0ad49280e429822e7560c8ded116bf4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/build-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/serenity-reports/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/serenity-reports/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/dc314d92346dc682c71348a9d2791d06c50cf4da91af205f21b83f0e717064df.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/dc314d92346dc682c71348a9d2791d06c50cf4da91af205f21b83f0e717064df.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/e028b247b78ffb38ba59a02ac85edd92554bae4845d18584015a2f873ef25edb.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/e028b247b78ffb38ba59a02ac85edd92554bae4845d18584015a2f873ef25edb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/serenity-reports/e493309d0031091ae9bf9b0514e9bd2a4ec8a30b51666202759471906f7af061.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/serenity-reports/e493309d0031091ae9bf9b0514e9bd2a4ec8a30b51666202759471906f7af061.html" afterDir="false" />
@@ -111,26 +119,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: Login.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build automationtst.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Login.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ge-Force/IdeaProjects/automationtst/src/main/kotlin/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4443439&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: Login.executor": "Run",
+    "Cucumber Java.Scenario: Validar acceso de un usuario autorizado en el app the app.executor": "Run",
+    "Cucumber Java.Scenario: Validar acceso de un usuario no autorizado en el app the app.executor": "Run",
+    "Gradle.Build automationtst.executor": "Run",
+    "Gradle.Login.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Ge-Force/IdeaProjects/automationtst/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4443439",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.appium.pro.theapp.automation.runners" />
@@ -145,6 +156,46 @@
       <module name="automationtst.test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validar acceso de un usuario autorizado en el app the app" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.appium.pro.theapp.automation.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="automationtst.test" />
+      <option name="NAME_FILTER" value="^Validar acceso de un usuario autorizado en el app the app$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validar acceso de un usuario autorizado en el app the app$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validar acceso de un usuario autorizado en el app the app" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validar acceso de un usuario no autorizado en el app the app" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.appium.pro.theapp.automation.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="automationtst.test" />
+      <option name="NAME_FILTER" value="^Validar acceso de un usuario no autorizado en el app the app$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validar acceso de un usuario no autorizado en el app the app$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validar acceso de un usuario no autorizado en el app the app" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -183,6 +234,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Login" />
+        <item itemvalue="Cucumber Java.Scenario: Validar acceso de un usuario autorizado en el app the app" />
+        <item itemvalue="Cucumber Java.Scenario: Validar acceso de un usuario no autorizado en el app the app" />
         <item itemvalue="Cucumber Java.Feature: Login" />
       </list>
     </recent_temporary>
@@ -203,6 +256,15 @@
       <option name="presentableId" value="Default" />
       <updated>1710913128871</updated>
     </task>
+    <task id="LOCAL-00001" summary="at support to android 12">
+      <option name="closed" value="true" />
+      <created>1717562018122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717562018122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +277,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="at support to android 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="at support to android 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

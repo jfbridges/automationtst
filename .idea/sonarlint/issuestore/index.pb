@@ -85,3 +85,7 @@ R
 ]target/serenity-reports/c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html,b\c\bc57502c1c485e62c4618c341510686c8c82f63d
 Y
 )target/serenity-reports/capabilities.html,7\7\77599690c47b69dcceddb38957c04bbad70a264b
+ˆ
+Xsrc/main/kotlin/com/appium/pro/theapp/automation/questions/TheScreenValidateWrongUser.kt,7\a\7a03bc89ab75e7134239ef0882ba1578a75ece4f
+Š
+Zsrc/main/kotlin/com/appium/pro/theapp/automation/questions/TheScreenValidateCorrectUser.kt,0\d\0dd16b21350260898baf05862e12934a9dbfed9f

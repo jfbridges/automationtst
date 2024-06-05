@@ -5,15 +5,15 @@ import net.serenitybdd.screenplay.Actor
 import net.serenitybdd.screenplay.Question
 import net.serenitybdd.screenplay.annotations.Subject
 
-open class TheScreenValidateUser:Question<Boolean> {
+open class TheScreenValidateWrongUser:Question<Boolean> {
     companion object{
-        fun forUserOnValidateCredentials():TheScreenValidateUser{
-            return TheScreenValidateUser()
+        fun forUserOnValidateCredentials():TheScreenValidateWrongUser{
+            return TheScreenValidateWrongUser()
         }
     }
 
     @Subject("User is validated like unautorized")
     override fun answeredBy(actor: Actor): Boolean {
-        return MenuAppElements.TXT_MSG_LOGIN.resolveFor(actor).isVisible
+        return MenuAppElements.TXT_MSG_LOGIN_FAILED.resolveFor(actor).isVisible
     }
 }

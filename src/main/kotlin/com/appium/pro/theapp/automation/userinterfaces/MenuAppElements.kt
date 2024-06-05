@@ -16,6 +16,9 @@ object MenuAppElements {
     val BTN_VAL_LOGIN:Target=
         Target.the("Login button").locatedBy("//android.widget.Button[@content-desc=\"loginBtn\"]")
 
-    val TXT_MSG_LOGIN:Target=
+    val TXT_MSG_LOGIN_FAILED:Target=
         Target.the("Message login validation").locatedBy("//android.widget.TextView[@resource-id=\"android:id/message\"and @text='Invalid login credentials, please try again']")
+
+    val TXT_MSG_lOGIN_SUCCES:Target=
+        Target.the("Message login validation ok").locatedBy("//android.widget.TextView[@text=\"Secret Area\"]")
 }

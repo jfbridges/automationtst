@@ -16,5 +16,5 @@ Característica:Login
   Escenario: Validar acceso de un usuario autorizado en el app the app
     Dado  EL usuario UsuarioActual abre la aplicacion the app
     Cuando  El usuario ingresa a la opcion login
-    Cuando Diligencia los campos usuario y password
+    Cuando Diligencia los campos alice y mypassword
     Entonces Es validado como usuario autorizado

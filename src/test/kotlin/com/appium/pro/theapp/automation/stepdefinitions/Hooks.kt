@@ -22,7 +22,7 @@ open class Hooks {
         val capabilities = DesiredCapabilities()
         capabilities.setCapability("platformName", "Android")
         capabilities.setCapability("deviceName", "Automation Device")
-        capabilities.setCapability("platformVersion", "11")
+        capabilities.setCapability("platformVersion", "12")
 //        capabilities.setCapability("app", "/ruta/a/tu/aplicacion.apk")
         capabilities.setCapability("appPackage", "com.appiumpro.the_app")
         capabilities.setCapability("appActivity", "com.appiumpro.the_app.MainActivity")

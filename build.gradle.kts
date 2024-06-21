@@ -17,7 +17,7 @@ dependencies {
     implementation("net.serenity-bdd:serenity-screenplay:4.1.4")
     implementation("ch.qos.logback:logback-classic:1.5.3")
     implementation("org.slf4j:slf4j-api:2.0.12")
-    implementation("io.appium:java-client:9.2.0")
+    testImplementation("io.appium:java-client:9.2.0") //cambie pimplementation por testImplementation
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("net.serenity-bdd:serenity-core:4.1.4")
     testImplementation("net.serenity-bdd:serenity-model:4.1.4")

@@ -12,7 +12,7 @@ import java.net.URL
 
 open class Hooks {
 
-    private lateinit var driver: AppiumDriver
+    lateinit var driver: AppiumDriver
     @Before
 
     fun setup() {

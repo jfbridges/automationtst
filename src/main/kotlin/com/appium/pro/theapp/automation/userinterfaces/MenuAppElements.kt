@@ -21,4 +21,7 @@ object MenuAppElements {
 
     val TXT_MSG_lOGIN_SUCCES:Target=
         Target.the("Message login validation ok").locatedBy("//android.widget.TextView[@text=\"Secret Area\"]")
+
+    val BTN_LIST:Target=
+        Target.the("Button list demo menu app").locatedBy("//android.widget.TextView[@resource-id=\"listItemTitle\" and @text=\"List Demo\"]")
 }

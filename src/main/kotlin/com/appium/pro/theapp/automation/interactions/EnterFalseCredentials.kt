@@ -22,6 +22,7 @@ open class EnterFalseCredentials(private val user: String, private val pass: Str
             Enter.theValue(user).into(MenuAppElements.LBL_USERNAME),
             Enter.theValue(pass).into(MenuAppElements.LBL_PASSWORD),
             Click.on(MenuAppElements.BTN_VAL_LOGIN)
+
         )
     }
 }
